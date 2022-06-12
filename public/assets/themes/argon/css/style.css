@@ -1,0 +1,37 @@
+header{
+    position: relative;
+}
+header .image{
+    min-width: 60px;
+}
+
+header .logo-text{
+    display: flex;
+    flex-direction: column;
+}
+
+header .image-text{
+    display: flex;
+    align-items: center;
+}
+header a .logo-text{
+    display: flex;
+    flex-direction: column;
+}
+header .image-text .name {
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .image img{
+    width: 40px;
+    border-radius: 6px;
+}

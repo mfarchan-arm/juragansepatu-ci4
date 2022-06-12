@@ -1,0 +1,138 @@
+CRITICAL - 2022-06-09 12:12:49 --> preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'preg_match(): P...', 'E:\\Parhan\\PIE\\T...', 466)
+#1 E:\Parhan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Email\Email.php(466): preg_match('/\\<(.*)\\>/', NULL, NULL)
+#2 E:\Parhan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\vendor\myth\auth\src\Authentication\Activators\EmailActivator.php(29): CodeIgniter\Email\Email->setFrom(NULL, NULL)
+#3 E:\Parhan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\vendor\myth\auth\src\Controllers\AuthController.php(189): Myth\Auth\Authentication\Activators\EmailActivator->send(Object(Myth\Auth\Entities\User))
+#4 E:\Parhan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): Myth\Auth\Controllers\AuthController->attemptRegister()
+#5 E:\Parhan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 E:\Parhan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Parhan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Parhan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\Parhan\\PIE\\T...')
+#9 {main}
+ERROR - 2022-06-09 12:42:48 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-06-09 12:42:48 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#10 {main}
+ERROR - 2022-06-09 12:46:36 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-06-09 13:11:11 --> Invalid file: themes\juragansepatu\pages\about.php
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes\\vegefood...')
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('themes\\vegefood...', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Pages.php(27): view('themes\\vegefood...', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 13:11:22 --> Invalid file: themes\juragansepatu\pages\about.php
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes\\vegefood...')
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('themes\\vegefood...', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Pages.php(27): view('themes\\vegefood...', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 13:11:53 --> Invalid file: themes\juragansepatu\pages\about.php
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('themes\\juragans...')
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('themes\\juragans...', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Pages.php(27): view('themes\\juragans...', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 14:52:55 --> syntax error, unexpected 'endif' (T_ENDIF), expecting end of file
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('auth\\login', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Login.php(22): view('auth\\login', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 15:03:52 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('auth\\login', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Login.php(22): view('auth\\login', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 15:04:26 --> syntax error, unexpected end of file
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('auth\\login', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Login.php(22): view('auth\\login', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 15:05:46 --> syntax error, unexpected end of file
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('auth\\login', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Login.php(22): view('auth\\login', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 15:06:24 --> syntax error, unexpected end of file
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('auth\\login', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Login.php(22): view('auth\\login', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 15:09:16 --> syntax error, unexpected end of file
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('auth\\login', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Login.php(22): view('auth\\login', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 15:09:48 --> syntax error, unexpected end of file
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('auth\\login', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Login.php(22): view('auth\\login', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}
+CRITICAL - 2022-06-09 15:09:49 --> syntax error, unexpected end of file
+#0 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('auth\\login', Array, true)
+#2 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Login.php(22): view('auth\\login', Array)
+#3 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\aan\PIE\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('E:\\aan\\PIE\\Tube...')
+#8 {main}

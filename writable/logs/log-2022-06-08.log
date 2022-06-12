@@ -1,0 +1,60 @@
+ERROR - 2022-06-08 02:58:55 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-08 02:58:55 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Home.php(21): CodeIgniter\BaseModel->first()
+#5 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Acer\\D...')
+#10 {main}
+CRITICAL - 2022-06-08 03:19:34 --> Undefined variable $flash
+#0 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Views\themes\juraganshoes\pages\contact.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 43)
+#1 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(210): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('themes\\juragans...', Array, true)
+#4 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Pages.php(43): view('themes\\juragans...', Array)
+#5 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#6 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Acer\\D...')
+#10 {main}
+CRITICAL - 2022-06-08 03:21:11 --> Undefined variable $flash
+#0 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Views\themes\juraganshoes\pages\contact.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\Acer\\D...', 43)
+#1 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(210): include('C:\\Users\\Acer\\D...')
+#2 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('themes\\juragans...', Array, true)
+#4 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Pages.php(43): view('themes\\juragans...', Array)
+#5 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#6 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Acer\\D...')
+#10 {main}
+CRITICAL - 2022-06-08 03:23:21 --> Undefined property: App\Controllers\Pages::$session
+#0 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Pages.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\Acer\\D...', 40)
+#1 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Pages->contact()
+#2 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#3 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Acer\\D...')
+#6 {main}
+CRITICAL - 2022-06-08 03:26:36 --> Attempt to read property "profile_picture" on null
+#0 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Helpers\global_helper.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\Acer\\D...', 97)
+#1 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Views\admin\header.php(162): get_admin_image()
+#2 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(210): include('C:\\Users\\Acer\\D...')
+#3 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\View\View.php(226): CodeIgniter\View\View->render('admin\\header', Array, true)
+#5 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Common.php(1089): CodeIgniter\View\View->render('admin\\overview', Array, true)
+#6 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\app\Controllers\Admin.php(38): view('admin\\overview', Array)
+#7 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#8 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Acer\Documents\Tubes\juragansepatu-ecommerce-codeigniter4\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Acer\\D...')
+#12 {main}
