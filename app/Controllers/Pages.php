@@ -8,6 +8,11 @@ use App\Models\ReviewModel;
 
 class Pages extends BaseController
 {
+    protected $ReviewModel;
+    protected $SettingModel;
+    protected $ProductModel;
+    protected $validation;
+    protected $session;
     public function __construct()
     {
         $this->validation =  \Config\Services::validation();

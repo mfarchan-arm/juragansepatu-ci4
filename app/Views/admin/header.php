@@ -1,7 +1,8 @@
 <?php
-$this->request = \Config\Services::request();
-$query = $this->request->getGet('search_query');
+$request = \Config\Services::request();
+$query = $request->getGet('search_query');
 ?>
+
 <!DOCTYPE html>
 <html>
 

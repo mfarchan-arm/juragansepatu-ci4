@@ -12,6 +12,16 @@ use phpDocumentor\Reflection\Types\This;
 
 class Customer_Reviews extends BaseController
 {
+    protected $validation;
+    protected $payment;
+    protected $order;
+    protected $review;
+    protected $session;
+    protected $load;
+    protected $pagination;
+    protected $uri;
+    protected $form_validation;
+    protected $input;
     public function __construct()
     {
         $this->validation =  \Config\Services::validation();

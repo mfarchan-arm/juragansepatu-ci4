@@ -10,6 +10,11 @@ use phpDocumentor\Reflection\Types\This;
 
 class Customer_Payments extends BaseController
 {
+    protected $validation;
+    protected $profile;
+    protected $payment;
+    protected $session;
+    protected $order;
     public function __construct()
     {
 

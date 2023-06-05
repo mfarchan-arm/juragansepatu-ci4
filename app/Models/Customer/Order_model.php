@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class Order_model extends Model
 {
     protected $table = 'orders';
+    protected $user_id;
     public function count_all_orders()
     {
         helper('global_helper');

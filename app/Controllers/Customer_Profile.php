@@ -11,6 +11,9 @@ use phpDocumentor\Reflection\Types\This;
 
 class Customer_Profile extends BaseController
 {
+    protected $validation;
+    protected $profile;
+    protected $session;
     public function __construct()
     {
         $this->validation =  \Config\Services::validation();

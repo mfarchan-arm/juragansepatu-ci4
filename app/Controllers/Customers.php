@@ -2,6 +2,16 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Customer extends CI_Controller {
+    protected $validation;
+    protected $payment;
+    protected $order;
+    protected $review;
+    protected $session;
+    protected $load;
+    protected $pagination;
+    protected $uri;
+    protected $form_validation;
+    protected $input;
     public function __construct()
     {
         parent::__construct();

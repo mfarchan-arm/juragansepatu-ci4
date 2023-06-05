@@ -9,6 +9,18 @@ use App\Models\Admin\Payment_model;
 
 class Admin_Orders extends BaseController
 {
+    protected $validation;
+    protected $payment;
+    protected $order;
+    protected $review;
+    protected $session;
+    protected $load;
+    protected $pagination;
+    protected $uri;
+    protected $form_validation;
+    protected $input;
+    protected $product;
+    protected $customer;
     public function __construct()
     {
 

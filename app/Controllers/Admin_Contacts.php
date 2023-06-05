@@ -10,6 +10,20 @@ use App\Models\Admin\Contact_model;
 
 class Admin_Contacts extends BaseController
 {
+    protected $validation;
+    protected $payment;
+    protected $order;
+    protected $review;
+    protected $session;
+    protected $load;
+    protected $pagination;
+    protected $uri;
+    protected $form_validation;
+    protected $input;
+    protected $product;
+    protected $customer;
+    protected $contact;
+    protected $email;
     public function __construct()
     {
         $this->contact = new Contact_model();

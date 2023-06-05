@@ -9,6 +9,7 @@ use phpDocumentor\Reflection\Types\This;
 
 class Customer_Orders extends BaseController
 {
+    protected $order;
     public function __construct()
     {
 

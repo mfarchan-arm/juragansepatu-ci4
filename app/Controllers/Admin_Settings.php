@@ -11,6 +11,19 @@ use CodeIgniter\Validation\Rules;
 
 class Admin_Settings extends BaseController
 {
+    protected $validation;
+    protected $payment;
+    protected $order;
+    protected $review;
+    protected $session;
+    protected $load;
+    protected $pagination;
+    protected $uri;
+    protected $form_validation;
+    protected $input;
+    protected $product;
+    protected $customer;
+    protected $setting;
     public function __construct()
     {
 

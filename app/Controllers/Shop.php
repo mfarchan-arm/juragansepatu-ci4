@@ -9,6 +9,11 @@ use phpDocumentor\Reflection\Types\This;
 
 class Shop extends BaseController
 {
+    protected $ReviewModel;
+    protected $SettingModel;
+    protected $ProductModel;
+    protected $customer;
+    protected $product;
 
     protected $session;
     public function __construct()

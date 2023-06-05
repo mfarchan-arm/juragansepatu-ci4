@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class Payment_model extends Model
 {
     protected $table = 'payments';
+    protected $user_id;
 
 
     public function count_all_payments()

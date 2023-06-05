@@ -9,6 +9,8 @@ use phpDocumentor\Reflection\Types\This;
 
 class Product extends BaseController
 {
+    protected $ProductModel;
+
     // protected $helpers = 'global_helper';
     public function __construct()
     {

@@ -7,6 +7,7 @@ use CodeIgniter\Model;
 class Review_model extends Model
 {
     protected $table = 'reviews';
+    protected $user_id;
 
     public function count_all_reviews()
     {

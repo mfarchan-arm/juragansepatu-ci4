@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class Profile_model extends Model
 {
     protected $table = 'users';
-
+    protected $user_id;
 
     public function get_profile()
     {

@@ -1,0 +1,173 @@
+CRITICAL - 2023-06-05 07:25:37 --> Creation of dynamic property App\Controllers\Home::$ReviewModel is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Home.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 15)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:29:16 --> Creation of dynamic property App\Controllers\Home::$ReviewModel is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 16)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:29:37 --> Creation of dynamic property App\Controllers\Shop::$ReviewModel is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Shop.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 16)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:30:08 --> Creation of dynamic property App\Controllers\Pages::$validation is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 13)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Pages->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:30:18 --> Creation of dynamic property App\Controllers\Shop::$ReviewModel is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Shop.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 16)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:30:20 --> Creation of dynamic property App\Controllers\Shop::$ReviewModel is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Shop.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 16)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:30:21 --> Creation of dynamic property App\Controllers\Product::$ProductModel is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Product.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 15)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Product->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:33:08 --> Creation of dynamic property App\Controllers\Shop::$ReviewModel is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Shop.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 16)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Shop->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:33:10 --> Creation of dynamic property App\Controllers\Pages::$validation is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Pages.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 13)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Pages->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:35:10 --> Creation of dynamic property App\Controllers\Login::$ReviewModel is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Login.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 14)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Login->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:36:44 --> Creation of dynamic property App\Controllers\Customer_Profile::$validation is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Customer_Profile.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 16)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Customer_Profile->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:38:26 --> Creation of dynamic property App\Models\Customer\Profile_model::$user_id is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Models\Customer\Profile_model.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 16)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Customer_Profile.php(26): App\Models\Customer\Profile_model->get_profile()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(832): App\Controllers\Customer_Profile->index()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_Profile))
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#7 {main}
+CRITICAL - 2023-06-05 07:39:45 --> Creation of dynamic property App\Controllers\Customer_Orders::$order is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Customer_Orders.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 15)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Customer_Orders->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:40:48 --> Creation of dynamic property App\Controllers\Customer_Orders::$order is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Customer_Orders.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 15)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Customer_Orders->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:42:26 --> Creation of dynamic property App\Controllers\Customer_Payments::$validation is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Customer_Payments.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 16)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(809): App\Controllers\Customer_Payments->__construct()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#6 {main}
+CRITICAL - 2023-06-05 07:43:01 --> Creation of dynamic property App\Models\Customer\Order_model::$user_id is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Models\Customer\Order_model.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 56)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Customer_Payments.php(49): App\Models\Customer\Order_model->order_with_bank_payments()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(832): App\Controllers\Customer_Payments->confirm()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_Payments))
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#7 {main}
+CRITICAL - 2023-06-05 07:43:25 --> Creation of dynamic property App\Models\Customer\Payment_model::$user_id is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Models\Customer\Payment_model.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 52)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Customer_Payments.php(53): App\Models\Customer\Payment_model->payment_list()
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(832): App\Controllers\Customer_Payments->confirm()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer_Payments))
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#7 {main}
+CRITICAL - 2023-06-05 07:47:56 --> Creation of dynamic property CodeIgniter\View\View::$request is deprecated
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Views\admin\header.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Creation of dyn...', 'D:\\Kuliah\\Semes...', 2)
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\View\View.php(210): include('D:\\Kuliah\\Semes...')
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\View\View.php(226): CodeIgniter\View\View->render('admin\\header', Array, true)
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Common.php(1089): CodeIgniter\View\View->render('admin\\overview', Array, true)
+#5 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\app\Controllers\Admin.php(50): view('admin\\overview', Array)
+#6 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#7 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#11 {main}
+CRITICAL - 2023-06-05 07:52:52 --> Call to a member function getPost() on null
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(832): App\Controllers\Admin_Customers->api('delete')
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Customers))
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#5 {main}
+CRITICAL - 2023-06-05 07:54:09 --> Call to a member function getPost() on null
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(832): App\Controllers\Admin_Customers->api('delete')
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Customers))
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#5 {main}
+CRITICAL - 2023-06-05 07:54:18 --> Call to a member function getPost() on null
+#0 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(832): App\Controllers\Admin_Customers->api('delete')
+#1 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Customers))
+#2 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Kuliah\Semester 4\Proyek PIE\juragansepatu-ci4\system\Commands\Server\rewrite.php(43): require_once('D:\\Kuliah\\Semes...')
+#5 {main}

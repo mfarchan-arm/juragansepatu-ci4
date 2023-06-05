@@ -9,6 +9,14 @@ use phpDocumentor\Reflection\Types\This;
 
 class Orders extends BaseController
 {
+    protected $order;
+    protected $validation;
+    protected $session;
+    protected $load;
+    protected $pagination;
+    protected $uri;
+    protected $form_validation;
+    protected $input;
     public function __construct()
     {
 
